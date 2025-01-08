@@ -18,12 +18,12 @@ This script initializes a server to start automatically when the computer is tur
 
 2. Make the script executable:
     ```bash
-    chmod +x makeBootServerService.sh
+    chmod +x scripts/makeBootServerService.sh
     ```
 
 3. Run the script:
     ```bash
-    ./makeBootServerService.sh
+    ./scripts/makeBootServerService.sh
     ```
 
 4. Follow the prompts to set up your service.
@@ -42,14 +42,14 @@ Here's a step-by-step example of using the `makeBootServerService.sh` script:
     Enter the path: /home/user/my-server
     ```
 
-3. Enter a custom command (optional):
-    ```
-    Enter custom command (optional): nvm use 20
-    ```
-
-4. Select the package manager:
+3. Select the package manager:
     ```
     Enter package manager (default: yarn): npm
+    ```
+
+4. Enter a custom command (optional):
+    ```
+    Enter custom command (optional): nvm use 20
     ```
 
 5. The script will create and start the service, and you can check its status with:
